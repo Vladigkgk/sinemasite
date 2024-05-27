@@ -1,0 +1,86 @@
+.contacts {
+    margin-top: 90px;
+}
+
+.contacts__blocks {
+    margin-top: 40px;
+
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+.contacts__block__item {
+    flex-basis: 200;
+}
+
+.contacts__title {
+    font-size: 48px;
+}
+
+.contacts__time {
+    margin: 24px 0 0;
+
+   font-size: 24px;    
+}
+
+.contact_phone {
+    text-decoration: none;
+    color: black;
+
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.contacts__block__title {
+    font-size: 24px;    
+}
+
+.contacts__block__email {
+    font-size: 18px;
+    color: rgb(85, 26, 139);
+    text-decoration: none;
+}
+
+@media only screen and (max-width : 1224px) {
+
+}
+
+
+@media only screen and (min-device-width : 536px) and (max-device-width : 1024px) {
+    .contacts__blocks {
+        margin-top: 30px;
+    }
+    
+    .contacts__block__item {
+        margin-top: 20px;
+    }
+
+    .contact_title {
+        font-size: 36px;        
+    }
+
+    .contact_phone {
+        font-size: 50px;
+    }
+
+    .contact__time {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 535px) {
+    .contacts_title {
+        font-size: 20px;        
+    }
+
+    .contact_phone {
+        font-size: 28px;
+    }
+
+    .contacts__time {
+        margin: 15px 0 0;
+        font-size: 18px;
+    }
+}
+ 

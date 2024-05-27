@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEMA7</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/Film.css">
+    <link rel="stylesheet" href="../css/preloader.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../css/simple-adaptive-slider.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script defer src="../js/simple-adaptive-slider.js"></script>
+    <script src="../js/preloader.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        // активация слайдера
+        new ItcSimpleSlider('.itcss', {
+        loop: true,
+        autoplay: true,
+        swipe: true
+        });
+    });
+</script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header_logo">
+                    <h2 class="logo" data-splitting><span class="char">C</span><span class="char">I</span>NEMA7</h2>
+                </div>
+                <nav class="nav">
+                    <a class="nav-link main" href="../../Index.html">Главная</a>
+                    <a class="nav-link main" href="Quize/index.html">Игра</a>
+                    <a class="nav-link contact" href="../pages/Contacts.html">Связаться с нами</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="itcss">
+            <div class="itcss__wrapper">
+              <div class="itcss__items">
+                <div class="itcss__item">
+                    <a class="" href="assets/pages/Film.html">
+                      <img class="slider__image" src="../img/135271_3316.webp"  alt="">
+                    </a>
+                  </div>
+                  <div class="itcss__item">
+                    <a class="" href="#">
+                      <img class="slider__image" src="../img/908526_3328.webp"  alt="">
+                    </a>
+                  </div>
+                  <div class="itcss__item">
+                    <a class="" href="assets/pages/Film.html">
+                      <img class="slider__image" src="../img/592818_3334.webp"  alt="">
+                    </a>
+                  </div>
+              </div>
+            </div>
+            <button class="itcss__btn itcss__btn_prev" role="button" data-slide="prev"></button>
+            <button class="itcss__btn itcss__btn_next" role="button" data-slide="next"></button>
+          </div>
+    </div>
+
+    <div id="preloader" class="preloader">
+        <div class="preloader__bar">
+            <div class="loadingio-spinner-ripple-2by998twmg8">
+                <div class="ldio-yzaezf3dcmj">
+                <div>
+    
+                </div>
+                <div>
+    
+                </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="description">
+                <div class="poster">
+                    <img class="poster__img" src="https://cinema5.ru/media_files/movies/vertical_poster_preview/10888/218307_663b1a0ec7ed12.66063009.webp" alt="">
+                </div>
+                <div class="description__content">
+                    <p class="description__rating">18+</p>
+                    <h2 class="description__content__title">Министерство неджентльменских дел</h2>
+                    <table class="table">
+                        <tr>
+                            <td class="description__lable">Производство</td>
+                            <td class="description__value">Великобритания, США</td>
+                        </tr>
+                        <tr>
+                            <td class="description__lable">Старт проката</td>
+                            <td class="description__value">с 13 мая 2024</td>
+                        </tr>
+                        <tr>
+                            <td class="description__lable">Жанры</td>
+                            <td class="description__value">комедийный экшн</td>
+                        </tr>
+                        <tr>
+                            <td class="description__lable">Режиссёр</td>
+                            <td class="description__value">Гай Ричи</td>
+                        </tr>
+                        <tr>
+                            <td class="description__lable">В главных ролях</td>
+                            <td class="description__value">
+                                Генри Кавилл, Эйса Гонсалес, Алан Ричсон, Алекс Петтифер</td>
+                        </tr>
+                        <tr>
+                            <td class="description__lable">Длительность</td>
+                            <td class="description__value">2 часа 7 минут</td>
+                        </tr>
+                    </table>
+                    <p class="description__paragraph">
+                        Они — лучшие из лучших. Отпетые авантюристы и первоклассные спецы, привыкшие действовать в одиночку. Но когда на кону стоит судьба всего мира, им приходится объединиться в сверхсекретное боевое подразделение и отправиться на дерзкую миссию против нацистов. Теперь их дело — война, и вести они её будут совершенно не по-джентльменски.
+                    </p>
+                </div>                
+            </div>
+            <!-- <div id="trailer" class="trailer">
+                <iframe class="iframe" src="https://www.youtube.com/embed/lOSM7OEmYbY?si=0gAxLDoLz9zadF2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div> -->
+            <div class="data__session">
+                <div class="data__session__img">                
+                </div>
+            <p class="data__session__text">
+                К сожалению, на выбранный день или раздел сеансов не найдено
+            </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">2024-2024 Сеть кинотеатров «CINEMA7» – все права защищены.</p>
+            <!-- <p class="footer__text">ежедневно 10:00-02:00</p> -->
+            <!-- <p class="footer__text">Реклама и сотрудничество: <a class="footer__text" href="mailto:kzpes@cinema-7.ru">kzpes@cinema-7.ru</a></p> -->
+        </div>
+    </footer>
+</body>
+</html>

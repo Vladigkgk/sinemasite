@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>САЛАВАТ</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script defer src="assets/js/slider.js"></script>
+    <script src="assets/js/favourites.js"></script>
+    <script src="assets/js/preloader.js"></script>
+    <script src="assets/js/toolbar.js"></script>    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        // активация слайдера
+        new ItcSimpleSlider('.itcss', {
+        loop: true,
+        autoplay: true,
+        swipe: true
+        });
+    });
+</script>        
+</head>
+<body>
+    <div id="preloader" class="preloader">
+        <div class="preloader__bar">
+            <span class="loader"></span> 
+        </div>        
+    </div>
+
+    <div class="slider">
+        <div class="itcss">
+            <div class="itcss__wrapper">
+              <div class="itcss__items">
+                <div class="itcss__item">
+                    <a class="" href="assets/pages/Film.html">
+                      <img class="slider__image" src="assets/img/135271_3316.webp"  alt="">
+                    </a>
+                  </div>
+                  <div class="itcss__item">
+                    <a class="" href="#">
+                      <img class="slider__image" src="assets/img/592818_3334.webp"  alt="">
+                    </a>
+                  </div>
+                  <div class="itcss__item">
+                    <a class="" href="#">
+                      <img class="slider__image" src="assets/img/908526_3328.webp"  alt="">
+                    </a>
+                  </div>
+              </div>
+            </div>
+            <button class="itcss__btn itcss__btn_prev" role="button" data-slide="prev"></button>
+            <button class="itcss__btn itcss__btn_next" role="button" data-slide="next"></button>
+          </div>
+    </div>
+
+    <main>        
+        <div class="poster">
+            <div class="container">
+                <nav id="nav" class="nav">
+                    <ul class="nav__list">
+                        <li> <a class="nav-link" href="">Главная</a></li>
+                        <li><a class="nav-link" href="assets/pages/Contacts.html">Контакты</a></li>
+                    </ul>                        
+                </nav>
+                    <div id="poster__main" class="poster__main">
+                        <h2 class="poster__title" >Фильмы в прокате</h2>
+                        <div class="poster__container">
+                            <div id="Government" class="poster__item nonfavorites">
+                                <div class="poster__img__holder">
+                                <span class="poster__rating">18+</span>
+                                <button id="GovernmentButton"> <img src="assets/img/favorite.svg" alt=""> </button>
+                                <a href="assets/pages/Film.html"><img class="poster__img" src="https://cinema5.ru/media_files/movies/vertical_poster_preview/10888/218307_663b1a0ec7ed12.66063009.webp" alt=""> </a>
+                                </div>
+                                <div class="poster__item__text">
+                                    <a href="assets/pages/Film.html" class="poster__item__title">Министерство неджентльменских дел</a>
+                                    <p class="poster__item__suptitle">комедийный экшн</p>
+                                </div>
+                            </div>
+                            <div id="Storm" class="poster__item nonfavorites">
+                                <div class="poster__img__holder">
+                                <span class="poster__rating">16+</span>
+                                <button class="StormButton"> <img src="assets/img/favorite.svg" alt=""> </button>
+                                <a href="assets/pages/Film.html"><img class="poster__img" src="https://cinema5.ru/media_files/movies/vertical_poster/10803/219874_664e1f57c25dc3.30319023.jpg" alt=""> </a>
+                                </div>
+                                <div class="poster__item__text">
+                                    <a href="assets/pages/Film.html" class="poster__item__title">Майор Гром: Игра</a>
+                                    <p class="poster__item__suptitle">приключения, экшн</p>
+                                </div>
+                            </div>
+                            <div id="Spell" class="poster__item nonfavorites">
+                                <div class="poster__img__holder">
+                                <span class="poster__rating">18+</span>
+                                <button id="SpellButton"> <img src="assets/img/favorite.svg" alt=""> </button>
+                                <a href="assets/pages/Film.html"><img class="poster__img" src="https://cinema5.ru/media_files/movies/vertical_poster_preview/10898/219853_664dd55ee41186.98960101.webp" alt=""> </a>
+                                </div>
+                                <div class="poster__item__text">
+                                    <a href="assets/pages/Film.html" class="poster__item__title">Заклятье. Мертвые воды</a>
+                                    <p class="poster__item__suptitle">Хоррор</p>
+                                </div>
+                            </div>   
+                            <div id="Heaven" class="poster__item nonfavorites">
+                                <div class="poster__img__holder">
+                                <span class="poster__rating">18+</span>
+                                <button id="HeavenButton"> <img src="assets/img/favorite.svg" alt=""> </button>
+                                <a href="assets/pages/Film.html"><img class="poster__img" src="https://cinema5.ru/media_files/movies/vertical_poster_preview/11043/212172_6613c1ca9b96d8.23625147.webp" alt=""> </a>
+                                </div>
+                                <div class="poster__item__text">
+                                    <a href="assets/pages/Film.html" class="poster__item__title">Рай под ногами матерей</a>
+                                    <p class="poster__item__suptitle">Хоррор</p>
+                                </div>
+                            </div>                                                    
+                    </div>                        
+                </div>                
+            </div>
+        </div>
+
+        <div class="toolbarBlock">
+
+            <button id="toolbarButton" class="toolbarButton ">
+                <!-- <img class="toolbarButtonIcon" src="/assets/img/135271_3316.webp" alt=""> -->
+            </button>
+            <button id="toolbarButtonClose" class="toolbarButton disable">
+                <!-- <img class="toolbarButtonIcon" src="/assets/img/135271_3316.webp" alt=""> -->
+            </button>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">2024-2024 Сеть кинотеатров «CINEMA7» – все права защищены.</p>
+            <!-- <p class="footer__text">ежедневно 10:00-02:00</p> -->
+            <!-- <p class="footer__text">Реклама и сотрудничество: <a class="footer__text" href="mailto:kzpes@cinema-7.ru">kzpes@cinema-7.ru</a></p> -->
+        </div>
+    </footer>
+</body>
+</html>

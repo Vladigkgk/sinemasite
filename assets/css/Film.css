@@ -1,0 +1,119 @@
+/* Description */
+
+.description {
+    margin-top: 90px;
+
+    display: flex;   
+}
+
+.poster__img {
+    border-radius: 10px;
+}
+
+.description__content {
+    padding-left: 40px;
+}
+
+.description__content__title {
+    font-size: 32px;
+}
+
+.table {
+    columns: auto;
+}
+
+.description__rating {
+    font-size: 20px;
+    color: red;
+}
+
+.description__lable {
+    padding-right: 20px;
+
+    font-size: 17px;
+    color: rgb(125, 125, 125);
+    font-weight: 600;
+
+}
+
+.description__value {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.description__paragraph {
+    font-weight: 500;
+}
+
+.trailer {
+    margin: 30px auto;
+}
+
+.iframe {
+    max-width: 100%;
+    max-height: 100%;
+
+    
+    height: 500px;
+    width: 100%;
+}
+
+.data__session {
+    width: 100%;
+    padding: 50px 0;
+
+    border-radius: 10px;
+    background-color: rgb(235, 234, 234);
+    border: 1px solid rgb(154, 154, 154);
+}
+
+.data__session__img {
+    margin: 20px auto;
+
+    width: 150px;
+    height: 150px;
+
+    background-repeat: no-repeat;
+    background-image: url(	https://cinema5.ru/images/empty.svg?2407045e53657c62dfe7a825ec873562);
+}
+
+.data__session__text {
+    max-width: 30%;
+    margin: 0 auto;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    text-align: center;
+}
+
+@media only screen and (max-width : 1224px) {
+    .description {
+        flex-wrap: wrap;
+    }
+
+    .description__content {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-device-width : 120px) and (max-device-width : 535px) {
+    .description {
+        flex-wrap: wrap;
+    }
+
+    .description__content {
+        padding: 0;
+    }
+
+    .poster__Item__session {
+        display: none;
+    }
+
+    .session {
+        display: none;
+    }
+}
+
+
+ 
